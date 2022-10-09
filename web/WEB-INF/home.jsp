@@ -12,9 +12,8 @@
         <title>Home</title>
     </head>
     <body>  
-      <p>
-        Welcome ${user.username}<br>
-        <a href="/login"> Log out</a>
-      </p>
+        <h1>Welcome ${user.username}</h1>
+       <a href="login?logout">Log out</a>
+      
     </body>
 </html>
